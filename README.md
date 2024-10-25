@@ -40,7 +40,7 @@ keymap = [
 ]
 ```
 
-List mode is the default, if you want to have tree mode instead when starting yazi - update `yazi.lua` with:
+List mode is the default, if you want to have tree mode instead when starting yazi - update `~/.config/yazi/init.lua` with:
 
 ```lua
 require("eza-preview"):setup()
